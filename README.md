@@ -30,3 +30,14 @@
 <p align='center'>
   <img src="./imgs/Aerial_Image_Segmentation.png" height="293"/>
 </p>
+
+- **Generative adversarial network** : Generative Adversarial Networks (*GANs*) are a clever way of training a *generative* model by framing the problem as a supervised learning problem with two sub-models: the generator model that we train to generate new examples, and the discriminator model that tries to classify examples as either ***real*** (from the domain) or ***fake*** (generated). The two models are trained together in a zero-sum game, adversarial, until the discriminator model is fooled about half the time, meaning the generator model is generating plausible examples.[^1]
+
+<p align='center'>
+  <img src="./imgs/GAN.png" height="300"/>
+</p>
+<p align='center'>
+ <i>Generation of hand-written digits like the MNIST dataset.</i>
+</p>
+
+[^1]: [A Gentle Introduction to Generative Adversarial Networks (GANs) by Jason Brownlee.](https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/)
